@@ -144,7 +144,7 @@ class cGame
 			{
 				if(rand()%10==1)
 					map[i]->Move();
-				if(map[i]->checkpos(player->x) && player->y ==i)
+				if(map[i]->checkpos(player->x) && player->y ==i)    // jha pr player the x coordinate hai vo position chek if it matches and y also matches that means collision happened
 				{
 					quit = true;
 					cout<<endl;
