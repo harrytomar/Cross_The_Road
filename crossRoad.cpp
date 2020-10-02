@@ -30,8 +30,8 @@ class cLane
 			}
 			right = rand()%2;
 		}
-		void Move()    // moving of cars like 10000,01000,00100,00010,00001
-		{
+		void Move()    // moving of cars like 10000,01000,00100,00010,00001  // ar every time either "" or "#" either comes or not at first position due to that our
+		{              // deque all element shift by one towards right then to avoid expanding the queue we pop out last element of that lane;
 			if(right)
 			{
 			
