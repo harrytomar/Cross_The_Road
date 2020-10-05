@@ -1,3 +1,4 @@
+// if we dont use srand then our rand will generate same random numbers again and again at each run of program so we use seeding rand.
 #include<iostream>
 #include<conio.h >
 #include<vector>
