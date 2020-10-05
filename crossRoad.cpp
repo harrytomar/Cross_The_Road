@@ -171,7 +171,7 @@ class cGame
 };
 int main()
 {
-	srand(time(NULL));
+	srand(time(NULL));      // rand generate same set of numbers every time but srand make rand to generate random number each time on again run of program
 	cGame game(40,5);
 	game.Run();
 	int x = game.score1();
